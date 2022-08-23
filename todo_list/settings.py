@@ -31,7 +31,7 @@ environment = os.getenv('ENVIROMENT','development')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['my-to-do-task.herokuapp.com']
 if environment == 'Development':
     
     DATABASES = {
